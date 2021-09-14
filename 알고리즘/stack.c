@@ -13,7 +13,6 @@ int isFull() // 스택이 포화 상태인지 검사하는 함수
         printf("Error : Stack is Full. \n");
         return 1;
     }
-    print_Stack;
     return 0;
 }
 
@@ -83,5 +82,3 @@ int main()
     pop();
     print_Stack();
 }
-
-https:///rpatm.tistory.com/40
