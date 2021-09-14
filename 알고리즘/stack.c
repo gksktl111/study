@@ -72,7 +72,7 @@ int main()
     push('B');
     push('C');
     print_Stack();
-    pop();
+    printf("%c를 삭제\n", pop());
     push('D');
     push('E');
     push('F');
@@ -81,4 +81,5 @@ int main()
     pop();
     pop();
     print_Stack();
+    printf("값은 %c 입니다.\n", peek());
 }
