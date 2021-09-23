@@ -26,7 +26,7 @@ int isEmpty() // 스택이 공백 상태인지 검사하는 함수
     return 0;
 }
 
-void push(data) // 스택에 원소를 삽입하는 함수
+void push(char data) // 스택에 원소를 삽입하는 함수
 {
     if (!isFull()) // 스택이 포화상태가 아닐 경우
     {
